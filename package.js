@@ -7,6 +7,7 @@ Package.describe({
 
 Package.onUse(function(api) {
     api.versionsFrom("METEOR@0.9.0.1");
+    api.use("react-runtime");
     api.addFiles("lib/00-alt.js", ["client"]);
     api.addFiles("lib/01-meteor-alt.js", ["client"]);
     api.export("Alt", ["client"]);

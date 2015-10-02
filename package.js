@@ -1,6 +1,6 @@
 Package.describe({
     summary: "A flux implementation, packaged for meteor",
-    version: "0.16.10",
+    version: "0.17.3",
     git: "https://github.com/froatsnook/meteor-alt.git",
     name: "froatsnook:alt",
 });
